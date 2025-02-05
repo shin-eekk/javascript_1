@@ -46,11 +46,12 @@ targetul.innerHTML = ullist;
 // document.querySelector("#sec2").innerHTML = mynavi[2].d1text;
 // document.querySelector("#sec3").innerHTML = mynavi[3].d1text;
 // document.querySelector("#sec4").innerHTML = mynavi[4].d1text;
-
 for(x=0; x<mynavi.length; x++){
     document.querySelector("#sec0").innerHTML += `<h2>${mynavi[x].d1text}</h2>`;
 }
 
+
+// ========================================================
 // document.querySelector("#ek_gnb").innerHTML = "출력" 
 // //   =는 대입하다(버리고 받는다)
 // document.querySelector("#ek_gnb").innerHTML += "+=는 뒤에 이어서 들어가기"
